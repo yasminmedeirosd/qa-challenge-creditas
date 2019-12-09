@@ -1,0 +1,44 @@
+1. O Login do site da Creditas está sendo criado agora e o time de desenvolvimento precisa entender melhor como deve funcionar para que possam desenvolver com assertividade.
+ Sua missão é escrever os cenários dessa funcionalidade para guiar o desenvolvimento.
+
+ Cenário: Realizar login com sucesso inserindo CPF
+    Devo acessar a tela de login
+    Devo digitar no campo "CPF OU EMAIL" o CPF corretamente
+    No campo "SENHA" devo inserir a senha corretamente
+    Clico em entrar 
+    O login é realizado com sucesso
+
+Cenário: Realizar login com sucesso inserindo E-mail
+    Devo acessar a tela de login
+    Devo digitar no campo "CPF OU EMAIL" o e-mail corretamente
+    No campo "SENHA" devo inserir a senha corretamente
+    Clico em entrar 
+    O login é realizado com sucesso
+
+Cenário: Inserir CPF incorreto 
+    Devo acessar a tela de login
+    Devo digitar no campo "CPF OU EMAIL" o CPF incorreto
+    No campo "SENHA" devo inserir a senha corretamente
+    Clico em entrar 
+    Devo visualizar mensagem de "Login ou Senha incorreto"
+
+Cenário: Inserir E-mail incorreto
+    Devo acessar a tela de login
+    Devo digitar no campo "CPF OU EMAIL" o e-mail incorreto
+    No campo "SENHA" devo inserir a senha corretamente
+    Clico em entrar 
+    Devo visualizar mensagem de "Login ou Senha incorreto"
+
+Cenário: Inserir Senha incorreta
+    Devo acessar a tela de login
+    Devo digitar no campo "CPF OU EMAIL" o cpf ou e-mail corretamente
+    No campo "SENHA" devo inserir a senha incorreta
+    Clico em entrar 
+    Devo visualizar mensagem de "Login ou Senha incorreto"
+
+Cenário: Clicar em "Esqueceu a Senha?"
+    Devo acessar a tela de login
+    Clico no link "Esqueceu a Senha"
+    Devo ser direcionado para a tela em que insiro dados para refazer a senha
+
+
